@@ -17,6 +17,17 @@ public class Controlleur{
 	private Etat etat;
 	private int portTCP;
 	private String username;
-
 	
+	
+	
+	
+	
+	
+	public Controlleur(VueConnect vue, int numtest) {
+		this.vue = vue;
+		this.etat = Etat.DEBUT;
+		this.username = "";
+		
+	
+}
 }

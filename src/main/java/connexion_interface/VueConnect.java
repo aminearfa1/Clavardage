@@ -1,6 +1,5 @@
 package connexion_interface;
 
-//Import librairies
 import java.awt.*;
 import javax.swing.*;
 
@@ -30,6 +29,20 @@ public class VueConnect extends Vue {
 	 * @param numtest : to be passed down to the controller
 	 * 
 	 */
+	public VueConnect(int numtest) {
+		super("Connexion");
+		controle = new Controlleur(this, numtest);
+		
+		//Window creation
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(400, 300);
+		this.setLocationRelativeTo(null);
+		
+	
+		
+		//Display window
+		this.setVisible(true);
+	}
 	
 }
 	
