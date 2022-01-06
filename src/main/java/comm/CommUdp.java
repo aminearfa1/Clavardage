@@ -151,7 +151,6 @@ public class CommUdp extends Thread {
 	}
 
 
-
 	public void sendMessageDelete() throws UnknownHostException, IOException {
 		for(int port : this.portOthers) {
 			try {
