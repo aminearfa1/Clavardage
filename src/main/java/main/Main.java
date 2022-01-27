@@ -8,7 +8,7 @@ public class Main {
 
 	private static int portServers[] = {1526,1501,1551,1561};
 	private static String ids[] = {"0", "1"};
-	private static String pseudo[] = {"sana", "amine"};
+	private static String pseudo[] = {"Amine", "Sana"};
 	public static void main(String[] args) {
 		
 		Main.createApp(0);
